@@ -1,2 +1,2 @@
 console.log("I Amir Kkhan")
-var x=20;
+var x=20; 
