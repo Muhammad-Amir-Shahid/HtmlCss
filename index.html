@@ -37,6 +37,53 @@
         height: auto;
     }
 </style>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #e0f7fa;
+        margin: 20px;
+        line-height: 1.6;
+    }
+    header, footer {
+        background-color: #00796b;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    main {
+        margin: 20px 0;
+    }
+    form {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    form button {
+        padding: 10px 20px;
+        background-color: #00796b;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+    form button:hover {
+        background-color: #004d40;
+    }
+    ol {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+</style>
 <body>
     <header>
         <h1>Welcome to My Enhanced Webpage</h1>
@@ -94,6 +141,51 @@
 
     <footer>
         <p>&copy; 2024 My Webpage. All rights reserved.</p>
+    </footer>
+    <header>
+        <h1>Welcome to My Interactive Webpage</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>My Favorite Movies</h2>
+            <ol>
+                <li>The Shawshank Redemption</li>
+                <li>Inception</li>
+                <li>The Dark Knight</li>
+                <li>Interstellar</li>
+                <li>Forrest Gump</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Video Section</h2>
+            <p>Watch this cool video:</p>
+            <video width="600" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Interactive Webpage. All rights reserved.</p>
     </footer>
     </body>
 <script> </script>
